@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"8675bb5d90ac689e","x":25,"y":-115,"width":260,"height":135,"type":"text","text":"Technology: Strapi\nIt's content management system (CMS) that writes data to Database and create specific relations"},
+		{"id":"f87e12cd91fd188e","x":-341,"y":160,"width":250,"height":60,"type":"text","text":"User"},
+		{"id":"38e7b1186c937fcc","x":-402,"y":-135,"width":250,"height":115,"type":"text","text":"Technology: Gatsby\nit's javaScript based front end"},
+		{"id":"12dcb1b286ecb844","x":30,"y":-267,"width":250,"height":60,"type":"text","text":"Data base"}
+	],
+	"edges":[
+		{"id":"459ff7bef1d1af63","fromNode":"8675bb5d90ac689e","fromSide":"left","toNode":"38e7b1186c937fcc","toSide":"right","label":"Data"},
+		{"id":"aeee95f5efde66f5","fromNode":"38e7b1186c937fcc","fromSide":"bottom","toNode":"f87e12cd91fd188e","toSide":"top","label":"service render"},
+		{"id":"a57996c47b3465b3","fromNode":"12dcb1b286ecb844","fromSide":"bottom","toNode":"8675bb5d90ac689e","toSide":"top","label":"data"}
+	]
+}
